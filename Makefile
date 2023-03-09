@@ -65,7 +65,7 @@ GNU_Linux_updev:
 gz:
 
 # merge
-MERGE += README.md Makefile .gitignore apt.txt apt.dev $(S)
+MERGE += README.md Makefile .gitignore apt.txt apt.dev LICENSE $(S)
 MERGE += .vscode bin doc inc tmp src
 
 .PHONY: dev
